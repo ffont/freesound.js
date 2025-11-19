@@ -68,6 +68,7 @@
         freesound.search(query, {page:page, filter:filter, sort:sort, fields:fields},
             function(sounds){
                 var msg = ""
+                
                 msg = "<h3>Searching for: " + query + "</h3>"
                 msg += "With filter: " + filter +" and sorting: " + sort + "<br>"
                 msg += "Num results: " + sounds.count + "<br><ul>"
